@@ -1,0 +1,23 @@
+#accordion  {
+  margin: 20px  100px 0px 100px;
+  max-width: 900px;
+}
+  #accordion H2 {
+  
+    color: white;
+    cursor: pointer;
+    font: 12px Helvetica, Arial, sans-serif;
+    line-height: 16px;
+    margin: 0 0 4px 0;
+    padding: 3px 5px 1px;
+  }
+  .box {
+    background-color: #191970;
+  }
+  .information{
+    background-color: #1E90FF;
+  }
+  .information p {
+    margin: 0.5em 0;
+    padding: 0 6px 8px 6px;
+  }
