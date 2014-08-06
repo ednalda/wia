@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ 
+<Html>
+<head> <title>Camping in New Hampshire</title>
+	<meta charset="utf-8"></meta>
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible"></meta>
+		<link href="css/style.css" rel="stylesheet">
+		<script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		 <script type="text/javascript" src="js/includes/modernizr.js"></script>
+</head><!--end head-->
+<body>
+	<canvas id="landscape" width="500" height="300"><p>Your Browser Does Not Support HTML5 canvas!</p></canvas>
+	<div id="page_location">
+		<header>
+			<h1>Camping in New Hampshire</h1>
+			<nav>
+				<ul> 
+					<li><a href="index.html">home</a></li> 
+					<li><a href="location.html" class="current">Location</a></li> 
+					<li><a href="activities.html">What to do?</a></li>
+                </ul>
+			</nav><!--end nav-->
+		</header><!--end header-->
+		<div id="content">
+			<article>
+				<h2>States visited in %</h2>
+				<ul id="chart">
+					<li title="25" class="red">
+						<span class="bar"></span>
+						<p>MA</p>
+					</li>
+					<li title="80" class="blue">
+						<span class="bar"></span>
+						<p>NJ</p>
+					</li>
+					<li title="65" class="white">
+						<span class="bar"></span>
+						<p>NY</p>
+					</li>
+					<li title="50" class="black">
+						<span class="bar"></span>
+						<p>FL</p>
+					</li>
+					<li title="100" class="purple">
+						<p>CA</p>
+						<span class="bar"></span>
+					</li>
+
+				</ul>
+				<form id="form_values" action="" method="post">
+					<input name="" id="li_1" value="25" class"field">
+					<input name="" id="li_2" value="80" class"field">
+					<input name="" id="li_3" value="65" class"field">
+					<input name="" id="li_4" value="50" class"field">
+					<input name="" id="li_5" value="100" class"field">
+				</form>
+
+			</article>
+		</div>
+		    <aside>
+		    	<div id="map_container">
+		    		<a class="dot" style="top:240px;  left:240px;" park="NA" city="penacook"></a>
+			        <a class="dot" style="top:335px;  left:189px;"  park="HB" city="concord"></a>
+			        <a class="dot" style="top:150px; left:230px;" park="AU" city="lynn" ></a>
+		    	
+		    	<form id="mapForm" name="mapForm" class="form_park" method="post" action="">
+				<select name="park" id="park">
+					<option value="NA">Meadow</option>
+					<option value="HB">Arbor</option>
+					<option value="AU">South</option>
+					<option value="ALL" selected="selected">Show all Parks</option>
+				</select>
+			</form>
+			
+			<div class="city_detail_container">
+			<!-- City -->
+			<div class="city_detail" id="penacook">
+				<img class="city_photo" src="images/penacook.jpeg" alt="penacook" width="30" height="30" />
+				<div class="city_info">
+					<h2>Penacook</h2>
+					<h3>Meadow</h3>
+					
+				</div>
+			</div>
+			
+			<!-- City -->
+			<div class="city_detail" id="concord">
+				<img class="city_photo" src="images/concord.jpeg" alt="concord" width="30" height="30" />
+				<div class="city_info">
+					<h2>Concord</h2>
+					<h3>Arbor</h3>
+					
+				</div>
+			</div>
+			
+			<!-- City -->
+			<div class="city_detail" id="lynn">
+				<img class="city_photo" src="images/lynn.jpeg" alt="lynn" width="30" height="30" />
+				<div class="city_info">
+					<h2>Lynn</h2>
+					<h3>South</h3>
+					
+				</div>
+			</div>
+			</div>
+			</aside>
+		<footer>
+			&copy; 2014 Camping in New Hampshire 
+		</footer><!--end footer-->
+	<div><!--end page_location-->
+</body><!--end body-->
+</html><!--end html-->

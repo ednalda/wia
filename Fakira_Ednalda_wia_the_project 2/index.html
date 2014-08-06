@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+ 
+<Html>
+<head> <title>Camping in New Hampshire</title>
+	<meta charset="utf-8"></meta>
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible"></meta>
+		<link href="css/style.css" rel="stylesheet">
+		<script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		 <script type="text/javascript" src="js/includes/modernizr.js"></script>
+</head><!--end head-->
+<body>
+	<canvas id="landscape" width="500" height="300"><p>Your Browser Does Not Support HTML5 canvas!</p></canvas>
+	<div id="page_home">
+		<header>
+			<h1>Camping in New Hampshire</h1>
+			<nav>
+				<ul> 
+					<li><a href="index.html" class="current">home</a></li> 
+					<li><a href="location.html">Location</a></li> 
+					<li><a href="activities.html">What to do?</a></li>
+                </ul>
+			</nav>
+		</header><!--end header-->
+		<div id="content">
+			<article><p>New Hampshire is a great state for camping lovers. You can find many state parks that provide many activities like canoing, hiking and fishing. Beutiful lakes that you find some to do all four seasions. Check the location page for you next outdoors adventure, and the activities page.</p>
+			</article><!--end article-->
+			<article>
+				<video src="images/video.mp4" autoplay controls width="180" height="160" ></video>
+				<video width="180" height="160"  onClick="pauseToggle()" controls> 
+				<source src="images/video.mp4"  type="video/mp4">
+			    <source src="images/video.ogv"  type="video/ogg">
+                Video is not support.
+				</video>
+				<button onClick="clicked()">Skip 2 seconds</button>
+			</article><!--end article-->
+	   </div><!--end content-->
+	   <aside>
+	   	<img src="images/home.jpg" class="large" height="700">
+	   	</aside><!--end aside-->
+		<footer id="footer_home">
+			&copy; 2014 Camping in New Hampshire 
+		</footer><!--end footer-->
+	<div><!--end page_home-->
+</body><!--end body-->
+</html><!--end html-->

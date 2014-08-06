@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+ 
+<Html>
+<head> <title>Camping in New Hampshire</title>
+	<meta charset="utf-8"></meta>
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible"></meta>
+		<link href="css/style.css" rel="stylesheet">
+        <script src="js/lightbox.js"></script>
+         <script src="js/fancybox.js"></script>
+		<script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		 <script type="text/javascript" src="js/includes/modernizr.js"></script>
+<body>
+	<canvas id="landscape" width="500" height="300"><p>Your Browser Does Not Support HTML5 canvas!</p></canvas>
+	<div id="page_activities">
+		<header>
+			<h1>Camping in New Hampshire</h1>
+			<nav>
+				<ul> 
+					<li><a href="index.html">home</a></li> 
+					<li><a href="location.html">Location</a></li> 
+					<li><a href="activities.html" class="current">What to do?</a></li>
+					<li>
+						<audio src ="images/audio.mov"  autoplay controls></audio>
+						<audio  id="audio" controls>
+						<source src="images/audio.mov" type="audio/mp4">
+						<source src="images/audio.mp3" type="audio/mpeg">
+						<source src="images/audio.oga" type="audio/ogg">
+						Audio is not supported
+					    </audio>
+					</li>
+					 <button onClick="clicked()">Skip 2 seconds</button>
+                </ul><!--end ul-->
+			</nav><!--end nav-->
+		</header><!--end header-->
+		<div id="content">
+			<ul class="large" id="gallery">
+				<li>
+					<a  class "fancybox" rel="group" href="images/boat.jpg" data-lightbox="1" title="boat">
+					<img src="images/boat.jpg" alt="1" width="195" height="200">
+				</li>
+				<li>
+					<a "fancybox" rel="group" href="images/hiking.jpg" data-lightbox="1" title="hiking">
+					<img src="images/hiking.jpg" alt="2" width="195" height="200"></li>
+				<li>
+					<a "fancybox" rel="group" href="images/canoe.jpg" data-lightbox="1" title="canoe">
+					<img src="images/canoe.jpg" alt="3" width="195" height="200"></li>
+				<li>
+					<a "fancybox" rel="group" href="images/hose.jpg" data-lightbox="1" title="hose">
+					<img src="images/hose.jpg" alt="3" width="195" height="200"></li>
+				<li>
+					<a "fancybox" rel="group"href="images/lake.jpg" data-lightbox="1" title="lake">
+					<img src="images/lake.jpg" alt="4" width="195" height="200"></li>
+				<li>
+					<a "fancybox" rel="group" href="images/street.jpg" data-lightbox="1" title="street">
+					<img src="images/street.jpg" alt="5" width="195" height="200"></li>
+			</ul><!--end gallery-->
+	   </div><!--end content-->
+		<footer class="footer_activities">
+			&copy; 2014 Camping in New Hampshire 
+		</footer><!--end footer-->
+	<div><!--end page_activities-->
+</body><!--end body-->
+</html><!--end html-->
